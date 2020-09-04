@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-v14-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:14": "DEBUG=app* node --harmony-top-level-await index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TL-Developer/nodejs-v14-streaming.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TL-Developer/nodejs-v14-streaming/issues"
+  },
+  "homepage": "https://github.com/TL-Developer/nodejs-v14-streaming#readme",
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "i": "^0.3.6",
+    "npm": "^6.14.8"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "json-to-csv-stream": "^1.1.0",
+    "stream-concat": "^0.3.0"
+  }
+}
